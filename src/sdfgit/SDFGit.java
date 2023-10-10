@@ -4,6 +4,8 @@
  */
 package sdfgit;
 
+import java.util.Scanner;
+
 /**
  *
  * @author Lecturer
@@ -15,6 +17,11 @@ public class SDFGit {
      */
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        System.out.println("What is your first number?");
+        Scanner sc = new Scanner(System.in);
+        int num1 = sc.nextInt();
+        System.out.println("What is your second number?");
+        int num2 = sc.nextInt();
     }
     
 }
