@@ -22,6 +22,8 @@ public class SDFGit {
         int num1 = sc.nextInt();
         System.out.println("What is your second number?");
         int num2 = sc.nextInt();
+        System.out.println("Thanks for doing some maths!");
+
     }
     
 }
