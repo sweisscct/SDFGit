@@ -15,6 +15,12 @@ public class SDFGit {
      */
     public static void main(String[] args) {
         System.out.println("Hello World!");
+        final double G = 0.0000000000667;
+        double M1 = 1000;
+        double M2 = 500;
+        double R = 1000;
+        double F = G*M1*M2/(R*R);
+        System.out.println("The force is: " + F);
     }
     
 }
