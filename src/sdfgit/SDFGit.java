@@ -17,6 +17,7 @@ public class SDFGit {
      */
     public static void main(String[] args) {
         System.out.println("Hello World!");
+
         System.out.println("What is your first number?");
         Scanner sc = new Scanner(System.in);
         int num1 = sc.nextInt();
@@ -24,6 +25,15 @@ public class SDFGit {
         int num2 = sc.nextInt();
         System.out.println("Thanks for doing some maths!");
 
+
+        final double G = 0.0000000000667;
+        double M1 = 1000;
+        double M2 = 500;
+        double R = 1000;
+        double F = G*M1*M2/(R*R);
+        System.out.println("The force is: " + F);
+        System.out.println("Thank you for doing Physics!");
+
     }
-    
+
 }
