@@ -21,6 +21,7 @@ public class SDFGit {
         double R = 1000;
         double F = G*M1*M2/(R*R);
         System.out.println("The force is: " + F);
+        System.out.println("Thank you for doing Physics!");
     }
     
 }
